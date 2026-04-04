@@ -1,0 +1,6 @@
+dafoam/
+dafoam/
+processor*
+*.bin
+*.info
+log*
