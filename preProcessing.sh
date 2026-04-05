@@ -16,7 +16,7 @@ checkMesh
 # 2. Run SST reference
 echo "Running SST reference..."
 cp constant/turbulenceProperties_SST constant/turbulenceProperties
-cp -r 0_orig 0
+cp 0_orig/* 0/
 
 decomposePar
 mpirun -np 4 python runPrimal.py
